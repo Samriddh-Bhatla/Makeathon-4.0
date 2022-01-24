@@ -503,8 +503,8 @@ a.linksb:hover {
 
 @media (max-width: 450px){
   #contact_us-box{
-    top: 25%;
-    left: 30%;
+    top: 17%;
+    left: 35%;
   }
   #contact_us-glassbox{
     display: none;
@@ -517,11 +517,10 @@ a.linksb:hover {
    flex-wrap: nowrap;
    position: relative;
    justify-content: space-evenly;
-   top :7.25vh;
-   left: -20.55%;
+   top : 7.68vh;
+   left: -15.55%;
  }
  #contact_us-box {
-  height: 27vw;
   display:flex;
   justify-content:flex-start; 
   flex-direction: column;
