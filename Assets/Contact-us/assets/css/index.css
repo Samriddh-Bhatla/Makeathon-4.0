@@ -500,3 +500,32 @@ a.linksb:hover {
   width: 13.889vw;
   margin-right: -0.139vw;
 }
+
+@media (max-width: 450px){
+  #contact_us-box{
+    top: 25%;
+    left: 30%;
+  }
+  #contact_us-glassbox{
+    display: none;
+  }
+  .links{
+    display: none;
+  }
+ #contact_us-contacticons{
+   display: flex;
+   flex-wrap: nowrap;
+   position: relative;
+   justify-content: space-evenly;
+   top :7.25vh;
+   left: -20.55%;
+ }
+ #contact_us-box {
+  height: 27vw;
+  display:flex;
+  justify-content:flex-start; 
+  flex-direction: column;
+  align-items: flex-start;
+ }
+} 
+
